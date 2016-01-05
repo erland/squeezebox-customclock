@@ -1478,7 +1478,7 @@
 					{
 						"itemtype":"analogvumeter",
 						"free": 1,
-						"url":"http://erlandapplets.googlecode.com/svn/PatchInstaller/trunk/patches/DarkBlueGlowVUMeter/share/jive/applets/WQVGAsmallSkin/images/UNOFFICIAL/VUMeter/vu_analog_25seq_b.png"
+						"url":"http://erland.github.io/squeezebox-patchinstaller/patches/DarkBlueGlowVUMeter/share/jive/applets/WQVGAsmallSkin/images/UNOFFICIAL/VUMeter/vu_analog_25seq_b.png"
 					},		
 					{
 						"itemtype":"trackplayingtext",
@@ -1516,7 +1516,7 @@
 					{
 						"itemtype":"analogvumeter",
 						"free": 1,
-						"url":"http://erlandapplets.googlecode.com/svn/PatchInstaller/trunk/patches/LightBlueGlowVUMeter/share/jive/applets/WQVGAsmallSkin/images/UNOFFICIAL/VUMeter/vu_analog_25seq_b.png"
+						"url":"http://erland.github.io/squeezebox-patchinstaller/patches/LightBlueGlowVUMeter/share/jive/applets/WQVGAsmallSkin/images/UNOFFICIAL/VUMeter/vu_analog_25seq_b.png"
 					},		
 					{
 						"itemtype":"trackplayingtext",
@@ -1554,7 +1554,7 @@
 					{
 						"itemtype":"analogvumeter",
 						"free": 1,
-						"url":"http://erlandapplets.googlecode.com/svn/PatchInstaller/trunk/patches/VintageDarkerGoldVUMeter/share/jive/applets/WQVGAsmallSkin/images/UNOFFICIAL/VUMeter/vu_analog_25seq_b.png"
+						"url":"http://erland.github.io/squeezebox-patchinstaller/patches/VintageDarkerGoldVUMeter/share/jive/applets/WQVGAsmallSkin/images/UNOFFICIAL/VUMeter/vu_analog_25seq_b.png"
 					},		
 					{
 						"itemtype":"trackplayingtext",
