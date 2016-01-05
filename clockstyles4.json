@@ -53,7 +53,7 @@
 					},
 					{
 						"itemtype": "secondimage",
-						"url": "http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/SecondHand_controller.png"
+						"url": "http://erland.github.io/squeezebox-customclock/images/SecondHand_controller.png"
 
 					},
 					{
@@ -397,7 +397,7 @@
 				"items": [
 					{
 						"itemtype": "clockimage",
-						"url": "http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/black25_controller.png"
+						"url": "http://erland.github.io/squeezebox-customclock/images/black25_controller.png"
 					},
 					{
 						"itemtype": "coverplayingicon"
@@ -432,7 +432,7 @@
 				"items": [
 					{
 						"itemtype": "clockimage",
-						"url": "http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/black50_controller.png"
+						"url": "http://erland.github.io/squeezebox-customclock/images/black50_controller.png"
 					},
 					{
 						"itemtype": "coverplayingicon"
@@ -467,7 +467,7 @@
 				"items": [
 					{
 						"itemtype": "clockimage",
-						"url": "http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/black75_controller.png"
+						"url": "http://erland.github.io/squeezebox-customclock/images/black75_controller.png"
 					},
 					{
 						"itemtype": "coverplayingicon"
@@ -502,7 +502,7 @@
 				"items": [
 					{
 						"itemtype": "clockimage",
-						"url": "http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/black25_radio.png"
+						"url": "http://erland.github.io/squeezebox-customclock/images/black25_radio.png"
 					},
 					{
 						"itemtype": "coverplayingicon"
@@ -537,7 +537,7 @@
 				"items": [
 					{
 						"itemtype": "clockimage",
-						"url": "http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/black50_radio.png"
+						"url": "http://erland.github.io/squeezebox-customclock/images/black50_radio.png"
 					},
 					{
 						"itemtype": "coverplayingicon"
@@ -572,7 +572,7 @@
 				"items": [
 					{
 						"itemtype": "clockimage",
-						"url": "http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/black75_radio.png"
+						"url": "http://erland.github.io/squeezebox-customclock/images/black75_radio.png"
 					},
 					{
 						"itemtype": "coverplayingicon"
@@ -607,7 +607,7 @@
 				"items": [
 					{
 						"itemtype": "clockimage",
-						"url": "http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/black25_touch.png"
+						"url": "http://erland.github.io/squeezebox-customclock/images/black25_touch.png"
 					},
 					{
 						"itemtype": "coverplayingicon"
@@ -646,7 +646,7 @@
 				"items": [
 					{
 						"itemtype": "clockimage",
-						"url": "http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/black50_touch.png"
+						"url": "http://erland.github.io/squeezebox-customclock/images/black50_touch.png"
 					},
 					{
 						"itemtype": "coverplayingicon"
@@ -685,7 +685,7 @@
 				"items": [
 					{
 						"itemtype": "clockimage",
-						"url": "http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/black75_touch.png"
+						"url": "http://erland.github.io/squeezebox-customclock/images/black75_touch.png"
 					},
 					{
 						"itemtype": "coverplayingicon"
@@ -1065,7 +1065,7 @@
 				"items": [
 					{
 						"itemtype": "clockimage",
-						"url": "http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/clock_classic_bkgrd_radio.png"
+						"url": "http://erland.github.io/squeezebox-customclock/images/clock_classic_bkgrd_radio.png"
 					},
 					{
 						"itemtype": "timetext",
@@ -1097,7 +1097,7 @@
 				"items": [
 					{
 						"itemtype": "clockimage",
-						"url": "http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/clock_classic_bkgrd_touch.png"
+						"url": "http://erland.github.io/squeezebox-customclock/images/clock_classic_bkgrd_touch.png"
 					},
 					{
 						"itemtype": "timetext",
@@ -1173,7 +1173,7 @@
 				"items":[
 					{
 						"itemtype":"analogvumeter",
-						"url":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/vu_analog_25seq_b_radio.png"
+						"url":"http://erland.github.io/squeezebox-customclock/images/vu_analog_25seq_b_radio.png"
 					},		
 					{
 						"itemtype":"trackplayingtext",
@@ -1205,7 +1205,7 @@
 				"items":[
 					{
 						"itemtype":"analogvumeter",
-						"url":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/VUMeters/VintageTEAC.png"
+						"url":"http://erland.github.io/squeezebox-customclock/images/VUMeters/VintageTEAC.png"
 					},		
 					{
 						"itemtype":"trackplayingtext",
@@ -1240,7 +1240,7 @@
 				"items":[
 					{
 						"itemtype":"analogvumeter",
-						"url":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/VUMeters/VintageDark.png"
+						"url":"http://erland.github.io/squeezebox-customclock/images/VUMeters/VintageDark.png"
 					},		
 					{
 						"itemtype":"trackplayingtext",
@@ -1272,7 +1272,7 @@
 				"items":[
 					{
 						"itemtype":"analogvumeter",
-						"url":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/VUMeters/VintageDarkRevised.png"
+						"url":"http://erland.github.io/squeezebox-customclock/images/VUMeters/VintageDarkRevised.png"
 					},		
 					{
 						"itemtype":"trackplayingtext",
@@ -1478,7 +1478,7 @@
 				"backgroundtype":"black",
 				"name":"Cassetta Touch",
 				"contributors":"Rikk (Graphics)",
-				"background":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/Touch/background.png",
+				"background":"http://erland.github.io/squeezebox-customclock/images/Cassetta/Touch/background.png",
 				"clockposy":"163",
 				"items":[
 					{
@@ -1542,30 +1542,30 @@
 					{
 						"itemtype":"rotatingimage",
 						"posy":"114",
-						"url.stopped":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/Touch/wheel.png",
-						"url.playingrotating":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/Touch/wheel.png",
+						"url.stopped":"http://erland.github.io/squeezebox-customclock/images/Cassetta/Touch/wheel.png",
+						"url.playingrotating":"http://erland.github.io/squeezebox-customclock/images/Cassetta/Touch/wheel.png",
 						"speed":"2",
 						"posx":"73"
 					},
 					{
 						"itemtype":"rotatingimage",
 						"posy":"114",
-						"url.stopped":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/Touch/wheel.png",
-						"url.playingrotating":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/Touch/wheel.png",
+						"url.stopped":"http://erland.github.io/squeezebox-customclock/images/Cassetta/Touch/wheel.png",
+						"url.playingrotating":"http://erland.github.io/squeezebox-customclock/images/Cassetta/Touch/wheel.png",
 						"speed":"2",
 						"posx":"178"
 					},
 					{
 						"itemtype":"hourimage",
-						"url":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/hour.png"
+						"url":"http://erland.github.io/squeezebox-customclock/images/Cassetta/hour.png"
 					},
 					{
 						"itemtype":"minuteimage",
-						"url":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/minute.png"
+						"url":"http://erland.github.io/squeezebox-customclock/images/Cassetta/minute.png"
 					},
 					{
 						"itemtype":"secondimage",
-						"url":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/second.png"
+						"url":"http://erland.github.io/squeezebox-customclock/images/Cassetta/second.png"
 					}
 				]
 			},
@@ -1575,7 +1575,7 @@
 				"backgroundtype":"black",
 				"name":"Cassetta",
 				"contributors":"Rikk (Graphics)",
-				"background":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/Radio/background.png",
+				"background":"http://erland.github.io/squeezebox-customclock/images/Cassetta/Radio/background.png",
 				"clockposy":"123",
 				"items":[
 					{
@@ -1639,30 +1639,30 @@
 					{
 						"itemtype":"rotatingimage",
 						"posy":"162",
-						"url.stopped":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/Radio/wheel.png",
-						"url.playingrotating":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/Radio/wheel.png",
+						"url.stopped":"http://erland.github.io/squeezebox-customclock/images/Cassetta/Radio/wheel.png",
+						"url.playingrotating":"http://erland.github.io/squeezebox-customclock/images/Cassetta/Radio/wheel.png",
 						"speed":"2",
 						"posx":"65"
 					},
 					{
 						"itemtype":"rotatingimage",
 						"posy":"162",
-						"url.stopped":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/Radio/wheel.png",
-						"url.playingrotating":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/Radio/wheel.png",
+						"url.stopped":"http://erland.github.io/squeezebox-customclock/images/Cassetta/Radio/wheel.png",
+						"url.playingrotating":"http://erland.github.io/squeezebox-customclock/images/Cassetta/Radio/wheel.png",
 						"speed":"2",
 						"posx":"158"
 					},
 					{
 						"itemtype":"hourimage",
-						"url":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/hour.png"
+						"url":"http://erland.github.io/squeezebox-customclock/images/Cassetta/hour.png"
 					},
 					{
 						"itemtype":"minuteimage",
-						"url":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/minute.png"
+						"url":"http://erland.github.io/squeezebox-customclock/images/Cassetta/minute.png"
 					},
 					{
 						"itemtype":"secondimage",
-						"url":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Cassetta/second.png"
+						"url":"http://erland.github.io/squeezebox-customclock/images/Cassetta/second.png"
 					}
 				]
 			},
@@ -1801,11 +1801,11 @@
 				"models":["radio"],
 				"name":"Notturno",
 				"contributors":"Rikk (Graphics)",
-				"background":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Notturno/face.png",
+				"background":"http://erland.github.io/squeezebox-customclock/images/Notturno/face.png",
 				"items":[
 					{
 						"itemtype":"secondimage",
-						"url":"http://erlandplugins.googlecode.com/svn/CustomClock/trunk/images/Notturno/second.png"
+						"url":"http://erland.github.io/squeezebox-customclock/images/Notturno/second.png"
 					},
 					{
 						"itemtype":"timetext",
