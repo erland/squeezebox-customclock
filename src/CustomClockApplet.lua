@@ -220,7 +220,7 @@ function openScreensaver1(self)
 	self:openScreensaver("config1")
 end
 function openScreensaver2(self)
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if licensed then
 		self:openScreensaver("config2")
 	else
@@ -228,7 +228,7 @@ function openScreensaver2(self)
 	end
 end
 function openScreensaver3(self)
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if licensed then
 		self:openScreensaver("config3")
 	else
@@ -236,7 +236,7 @@ function openScreensaver3(self)
 	end
 end
 function openScreensaver4(self)
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if licensed then
 		self:openScreensaver("config4")
 	else
@@ -244,7 +244,7 @@ function openScreensaver4(self)
 	end
 end
 function openScreensaver5(self)
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if licensed then
 		self:openScreensaver("config5")
 	else
@@ -252,7 +252,7 @@ function openScreensaver5(self)
 	end
 end
 function openScreensaver6(self)
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if licensed then
 		self:openScreensaver("config6")
 	else
@@ -260,7 +260,7 @@ function openScreensaver6(self)
 	end
 end
 function openScreensaver7(self)
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if licensed then
 		self:openScreensaver("config7")
 	else
@@ -268,7 +268,7 @@ function openScreensaver7(self)
 	end
 end
 function openScreensaver8(self)
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if licensed then
 		self:openScreensaver("config8")
 	else
@@ -276,7 +276,7 @@ function openScreensaver8(self)
 	end
 end
 function openScreensaver9(self)
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if licensed then
 		self:openScreensaver("config9")
 	else
@@ -284,7 +284,7 @@ function openScreensaver9(self)
 	end
 end
 function goNowPlaying(self, transition)
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if licensed then
 		self:openScreensaver("confignowplaying",transition)
 	else
@@ -292,7 +292,7 @@ function goNowPlaying(self, transition)
 	end
 end
 function openCustomClockAlarmWindow(self)
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if licensed then
 		self:openScreensaver("configalarmactive")
 	else
@@ -302,7 +302,7 @@ end
 function openMenu(self,transition)
 	local window = Window("text_list",self:string("SCREENSAVER_CUSTOMCLOCK"), 'settingstitle')
 	self.customItemTypes = self:getSettings()["customitemtypes"]
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 
 	local menu = SimpleMenu("menu")
 	if not licensed then
@@ -340,7 +340,7 @@ function openScreensaver(self,mode, transition)
 	local player = appletManager:callService("getCurrentPlayer")
 	local oldMode = self.mode
 	self.mode = mode
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if ((oldMode and self.mode != oldMode) or self.licensed~=licensed) and self.window then
 		self.window:hide()
 		self.window = nil
@@ -942,7 +942,7 @@ function openSettings(self)
 	end
 
 	self.settingsWindow = Window("text_list", self:string("SCREENSAVER_CUSTOMCLOCK_SETTINGS"), 'settingstitle')
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 
 	local menu = SimpleMenu("menu")
 	if not licensed then
@@ -1111,7 +1111,7 @@ end
 function _updateCustomTitleFormatInfo(self,player)
 	local server = player:getSlimServer()
 	if server and not server:isSqueezeNetwork() then
-		local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+		local licensed = true
 		if not self:getSettings()['customClockHelperInstalled'] then
 			server:userRequest(function(chunk,err)
 					if err then
@@ -1157,7 +1157,7 @@ function _updateTitleFormatInfo(self,player)
 					log:warn(err)
 				else
 					local index = chunk.data.playlist_cur_index
-					local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+					local licensed = true
 					if index and chunk.data.playlist_loop[index+1] and licensed then
 						self.titleformats["BAND"] = chunk.data.playlist_loop[index+1].band
 						self.titleformats["COMPOSER"] = chunk.data.playlist_loop[index+1].composer
@@ -1182,7 +1182,7 @@ end
 function defineSettingStyle(self,mode,menuItem)
 	
 	local player = appletManager:callService("getCurrentPlayer")
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if player then
 		local server = player:getSlimServer()
 		if server and not server:isSqueezeNetwork() then
@@ -1293,7 +1293,7 @@ function defineSettingStyleSink(self,title,mode,data)
 	local window = Window("icon_list", title, 'settingstitle')
 	local menu = SimpleMenu("menu")
 	menu:setComparator(menu.itemComparatorWeightAlpha)
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if not licensed then
 		menu:setHeaderWidget(Textarea("help_text", self:string("SCREENSAVER_CUSTOMCLOCK_LICENSE_MORE_STYLES")))
 	end
@@ -1666,7 +1666,7 @@ end
 function _updateRatingIcon(self,widget,id,mode,free)
 	local player = appletManager:callService("getCurrentPlayer")
 	if player then
-		local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+		local licensed = true
 		local playerStatus = player:getPlayerStatus()
 		if not mode or (mode == 'play' and playerStatus.mode == 'play') or (mode != 'play' and playerStatus.mode != 'play') then
 			local rating = self.titleformats["RATING"]
@@ -1698,7 +1698,7 @@ function _updateRatingIcon(self,widget,id,mode,free)
 end
 function _updateNowPlaying(self,itemType,widget,id,mode,free)
 	local player = appletManager:callService("getCurrentPlayer")
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if player then
 		local playerStatus = player:getPlayerStatus()
 		if not mode or (mode == 'play' and playerStatus.mode == 'play') or (mode != 'play' and playerStatus.mode != 'play') then
@@ -1722,7 +1722,7 @@ end
 
 function _updateStaticNowPlaying(self,widget,id,format,mode,free)
 	local player = appletManager:callService("getCurrentPlayer")
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if player then
 		local playerStatus = player:getPlayerStatus()
 		if not mode or (mode == 'play' and playerStatus.mode == 'play') or (mode != 'play' and playerStatus.mode != 'play') then
@@ -2178,7 +2178,7 @@ end
 function _updateRSSItem(self,category,items)
 	local player = appletManager:callService("getCurrentPlayer")
 	local server = player:getSlimServer()
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 
 	local req = RequestHttp(function(chunk, err)
 			if err then
@@ -3133,7 +3133,7 @@ end
 
 function _updateAlbumCover(self,widget,id,size,mode,index,free)
 	local player = appletManager:callService("getCurrentPlayer")
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	if player then
 		local playerStatus = player:getPlayerStatus()
 		if not mode or (mode == 'play' and playerStatus.mode == 'play') or (mode != 'play' and playerStatus.mode != 'play') then
@@ -3225,7 +3225,7 @@ function _tick(self,forcedUpdate)
 	local changerssitems = {}
 	local no = 1
 	local refreshCustomItemTypes = self.refreshCustomItemTypes
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	self.refreshCustomItemTypes = {}
 	for _,item in pairs(self.configItems) do
 		if item.itemtype == "timetext" then
@@ -4174,7 +4174,7 @@ end
 function _imageUpdate(self)
 	log:debug("Initiating image update (offset="..self.offset.. " minutes)")
 
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	local no = 1
 	for _,item in pairs(self.configItems) do
 		if string.find(item.itemtype,"icon$") and item.itemtype ~= "imageicon" and item.itemtype ~= "rssicon" then
@@ -4364,7 +4364,7 @@ function _getClockSkin(self,skin)
 		},			
 	}
 	
-	local licensed = appletManager:callService("isLicensedApplet","CustomClock")
+	local licensed = true
 	local no = 1
 	for _,item in pairs(self.configItems) do
 		if string.find(item.itemtype,"text$") then
